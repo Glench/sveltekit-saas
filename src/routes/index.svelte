@@ -11,7 +11,9 @@
 
 
     <div style="width: 350px; display: inline-block; vertical-align: top; text-align: left; margin-right: 3rem">
-        <p>Everything you need to launch your next app. User auth, admin dashboards, Stripe payments, and more — all built on top of the best in class SvelteKit framework.</p>
+        <p>Everything you need to launch your next app.</p>
+        
+        <p>User auth, admin dashboards, Stripe payments, and more — all built on top of the best in class SvelteKit framework.</p>
 
         <p>Stop coding the same features in every app and save weeks of development time.</p>
     </div>
