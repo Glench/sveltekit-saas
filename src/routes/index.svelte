@@ -32,9 +32,6 @@
     :global(#svelte) {
         background-color: white !important;
     }
-    header {
-        background-color: white;
-    }
     :global(.inline-container) {
         display: inline-block !important;
         margin: 0 auto;
