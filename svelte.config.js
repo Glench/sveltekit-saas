@@ -13,6 +13,7 @@ const config = {
         paths: {
             base: dev ? '' : '/svelte-saas',
         },
+        appDir: 'app_',
         adapter: adapter({
             pages: 'docs',
             assets: 'docs',
