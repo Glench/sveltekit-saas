@@ -10,9 +10,9 @@ const config = {
     preprocess: preprocess(),
 
     kit: {
-        paths: {
-            base: dev ? '' : '/svelte-saas',
-        },
+        // paths: {
+        //     base: dev ? '' : '/svelte-saas',
+        // },
         appDir: 'app_',
         adapter: adapter({
             pages: 'docs',
