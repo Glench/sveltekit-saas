@@ -10,7 +10,11 @@
     <h1>✨ The SaaS Template for SvelteKit ✨</h1>
 
 
-    <p style="width: var(--width-card); display: inline-block; vertical-align: top; text-align: left; margin-right: 3rem">Everything you need to launch your next app.</p>
+    <div style="width: 350px; display: inline-block; vertical-align: top; text-align: left; margin-right: 3rem">
+        <p>Everything you need to launch your next app. User auth, admin dashboards, Stripe payments, and more — all built on top of the best in class SvelteKit framework.</p>
+
+        <p>Stop coding the same features in every app and save weeks of development time.</p>
+    </div>
 
     <script async src="https://eomail1.com/form/3690e32d-68d0-11ec-96e5-06b4694bee2a.js" data-form="3690e32d-68d0-11ec-96e5-06b4694bee2a"></script>
 
