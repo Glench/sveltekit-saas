@@ -20,10 +20,21 @@
 
     <script async src="https://eomail1.com/form/3690e32d-68d0-11ec-96e5-06b4694bee2a.js" data-form="3690e32d-68d0-11ec-96e5-06b4694bee2a"></script>
 
-    <div class="inline-container"></div>
 </header>
+<div style="height: 100px; border-bottom: 4px solid #aaa;">
+
+</div>
 
 <style>
+    :global(body) {
+        background-color: rgb(223, 223, 223) !important;
+    }
+    :global(#svelte) {
+        background-color: white !important;
+    }
+    header {
+        background-color: white;
+    }
     :global(.inline-container) {
         display: inline-block !important;
         margin: 0 auto;
