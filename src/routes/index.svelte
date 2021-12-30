@@ -30,7 +30,7 @@
         background-color: rgb(223, 223, 223) !important;
     }
     :global(#svelte) {
-        background-color: white !important;
+        background-color: var(--color-bg) !important;
     }
     :global(.inline-container) {
         display: inline-block !important;
