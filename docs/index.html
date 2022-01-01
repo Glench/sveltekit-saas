@@ -10,20 +10,19 @@
 
 		
 
-		<link rel="modulepreload" href="/app_/start-62eab6b6.js">
+		<link rel="stylesheet" href="/app_/assets/start-61d1577b.css">
+		<link rel="stylesheet" href="/app_/assets/pages/index.svelte-ad8b234a.css">
+		<link rel="modulepreload" href="/app_/start-b6c88bab.js">
 		<link rel="modulepreload" href="/app_/chunks/vendor-dbb9610c.js">
 		<link rel="modulepreload" href="/app_/layout.svelte-6464e5e5.js">
 		<link rel="modulepreload" href="/app_/pages/index.svelte-923b7f2c.js">
-		<link rel="stylesheet" href="/app_/assets/start-61d1577b.css">
-		<link rel="stylesheet" href="/app_/assets/pages/index.svelte-ad8b234a.css">
 
 		<script type="module">
-			import { start } from "/app_/start-62eab6b6.js";
+			import { start } from "/app_/start-b6c88bab.js";
 			start({
 				target: document.querySelector("#svelte"),
 				paths: {"base":"","assets":""},
 				session: {},
-				host: location.host,
 				route: true,
 				spa: false,
 				trailing_slash: "never",
@@ -34,14 +33,14 @@
 						import("/app_/layout.svelte-6464e5e5.js"),
 						import("/app_/pages/index.svelte-923b7f2c.js")
 					],
-					page: {
-						host: location.host, // TODO this is redundant
-						path: "\u002F",
-						query: new URLSearchParams(""),
-						params: {}
-					}
+					url: new URL("sveltekit://prerender/"),
+					params: {}
 				}
 			});
+		</script><script>
+			if ('serviceWorker' in navigator) {
+				navigator.serviceWorker.register('/service-worker.js');
+			}
 		</script>
     </head>
     <body>
