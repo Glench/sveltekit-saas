@@ -1,5 +1,14 @@
 <svelte:head>
     <title>Svelte SaaS: The SaaS Template for SvelteKit</title>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-FSJW8FC22N"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'G-FSJW8FC22N');
+    </script>
 </svelte:head>
 
 <nav>
