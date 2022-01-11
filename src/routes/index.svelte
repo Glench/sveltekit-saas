@@ -51,4 +51,7 @@
     :global(.mastfoot) {
         display: none !important;
     }
+    :global(.emailoctopus-success-message) {
+        color: #3ab73a !important;
+    }
 </style>
