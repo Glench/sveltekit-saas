@@ -1,5 +1,5 @@
 <svelte:head>
-    <title>Svelte SaaS: The SaaS Template for SvelteKit</title>
+    <title>Svelte SaaS: The Full-stack SaaS Template for SvelteKit</title>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-FSJW8FC22N"></script>
     <script>
@@ -16,7 +16,7 @@
 
 <header>
     <small>Coming soon...</small>
-    <h1>✨ The SaaS Template for SvelteKit ✨</h1>
+    <h1>✨ The Full-Stack SaaS Template for SvelteKit ✨</h1>
 
 
     <div style="width: 350px; display: inline-block; vertical-align: top; text-align: left; margin-right: 3rem">
