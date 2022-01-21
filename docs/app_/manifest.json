@@ -1,51 +1,48 @@
 {
-  ".svelte-kit/build/runtime/internal/start.js": {
-    "file": "start-e88b9125.js",
-    "src": ".svelte-kit/build/runtime/internal/start.js",
+  ".svelte-kit/runtime/client/start.js": {
+    "file": "start-81d0b645.js",
+    "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
-      "_vendor-e187b840.js"
+      "_vendor-ba5e527f.js"
     ],
     "dynamicImports": [
-      ".svelte-kit/build/components/layout.svelte",
-      ".svelte-kit/build/components/error.svelte",
+      ".svelte-kit/runtime/components/layout.svelte",
+      ".svelte-kit/runtime/components/error.svelte",
       "src/routes/index.svelte"
-    ],
-    "css": [
-      "assets/start-61d1577b.css"
     ]
   },
-  ".svelte-kit/build/components/layout.svelte": {
-    "file": "layout.svelte-1ff0a9d4.js",
-    "src": ".svelte-kit/build/components/layout.svelte",
+  ".svelte-kit/runtime/components/layout.svelte": {
+    "file": "layout.svelte-eca9fc82.js",
+    "src": ".svelte-kit/runtime/components/layout.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_vendor-e187b840.js"
+      "_vendor-ba5e527f.js"
     ]
   },
-  ".svelte-kit/build/components/error.svelte": {
-    "file": "error.svelte-e13bdaca.js",
-    "src": ".svelte-kit/build/components/error.svelte",
+  ".svelte-kit/runtime/components/error.svelte": {
+    "file": "error.svelte-5d5d6eed.js",
+    "src": ".svelte-kit/runtime/components/error.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_vendor-e187b840.js"
+      "_vendor-ba5e527f.js"
     ]
   },
   "src/routes/index.svelte": {
-    "file": "pages/index.svelte-cf8c4c05.js",
+    "file": "pages/index.svelte-dcdc195b.js",
     "src": "src/routes/index.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_vendor-e187b840.js"
+      "_vendor-ba5e527f.js"
     ],
     "css": [
-      "assets/pages/index.svelte-3ea6a9a2.css"
+      "assets/pages/index.svelte-45af7a7b.css"
     ]
   },
-  "_vendor-e187b840.js": {
-    "file": "chunks/vendor-e187b840.js"
+  "_vendor-ba5e527f.js": {
+    "file": "chunks/vendor-ba5e527f.js"
   }
 }
