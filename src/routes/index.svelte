@@ -42,8 +42,8 @@
             <ul>
                 <li>Optimized full-stack apps with no configuration</li>
                 <li>SEO and performance from server-side rendering</li>
-                <li>Zippy UX from client-side hydration &amp; optional routing
-                <li>Stay in dev flow with instant hot-module reloading</li>
+                <li>Zippy UX from client-side hydration &amp; routing</li>
+                <li>Stay in flow with instant hot-module reloading</li>
             </ul>
         </div>
 
@@ -97,7 +97,7 @@
         padding: 1.5rem;
     }
     h1 {
-        font-family: Inter, sans-serif;
+        font-family: Inter, -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
         font-size: 3rem;
         color: black;
         line-height: 1.2;
