@@ -3,7 +3,8 @@
   "version": "0.0.1",
   "scripts": {
     "dev": "svelte-kit dev",
-    "build": "svelte-kit build && echo 'sveltesaas.com' > docs/CNAME",
+    "build": "svelte-kit build && echo 'sveltesaas.com' > docs/CNAME && npm run sitemap",
+    "sitemap": "svelte-sitemap --domain https://sveltesaas.com -o docs",
     "package": "svelte-kit package",
     "preview": "svelte-kit preview",
     "check": "svelte-check --tsconfig ./tsconfig.json",
@@ -25,6 +26,7 @@
     "svelte": "^3.44.0",
     "svelte-check": "^2.2.6",
     "svelte-preprocess": "^4.9.4",
+    "svelte-sitemap": "^2.3.0",
     "tslib": "^2.3.1",
     "typescript": "^4.4.3"
   },
