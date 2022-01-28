@@ -5,7 +5,7 @@
     <title>How to Deploy SvelteKit Apps to Github Pages</title>
 </svelte:head>
 
-<header>
+<header style="padding: 0;">
     <h1>How to Deploy SvelteKit Apps to Github Pages</h1>
 </header>
 
