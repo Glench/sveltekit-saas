@@ -1,5 +1,5 @@
 <script>
-    export const route = false;
+    export const hydrate = false;
     import { base, assets } from '$app/paths';
 </script>
 
