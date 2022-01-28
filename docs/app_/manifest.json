@@ -1,15 +1,17 @@
 {
   ".svelte-kit/runtime/client/start.js": {
-    "file": "start-5f7c4ddc.js",
+    "file": "start-d571ee79.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
-      "_vendor-ba5e527f.js"
+      "_vendor-ba5e527f.js",
+      "_paths-396f020f.js"
     ],
     "dynamicImports": [
       ".svelte-kit/runtime/components/layout.svelte",
       ".svelte-kit/runtime/components/error.svelte",
       "src/routes/index.svelte",
+      "src/routes/articles/__layout.svelte",
       "src/routes/articles/sveltekit-github-pages-guide.svelte"
     ]
   },
@@ -43,16 +45,33 @@
       "assets/pages/index.svelte-d8a12179.css"
     ]
   },
+  "src/routes/articles/__layout.svelte": {
+    "file": "pages/articles/__layout.svelte-e033f219.js",
+    "src": "src/routes/articles/__layout.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-ba5e527f.js",
+      "_paths-396f020f.js"
+    ],
+    "css": [
+      "assets/pages/articles/__layout.svelte-984cc1bf.css"
+    ]
+  },
   "src/routes/articles/sveltekit-github-pages-guide.svelte": {
-    "file": "pages/articles/sveltekit-github-pages-guide.svelte-1e835ba0.js",
+    "file": "pages/articles/sveltekit-github-pages-guide.svelte-ce73b2ca.js",
     "src": "src/routes/articles/sveltekit-github-pages-guide.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_vendor-ba5e527f.js"
+      "_vendor-ba5e527f.js",
+      "_paths-396f020f.js"
     ]
   },
   "_vendor-ba5e527f.js": {
     "file": "chunks/vendor-ba5e527f.js"
+  },
+  "_paths-396f020f.js": {
+    "file": "chunks/paths-396f020f.js"
   }
 }
