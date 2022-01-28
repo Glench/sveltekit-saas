@@ -1,3 +1,6 @@
+<script>
+    import { base } from '$app/paths';
+</script>
 <svelte:head>
     <title>Launch Faster with the Full-stack SaaS Template for SvelteKit</title>
     <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -57,6 +60,12 @@
             </ul>
         </div>
     </section>
+
+    <section style="display: block; max-width: 800px; font-size: 2rem;">
+        <h3>Guides</h3>
+        <h4><a href="{base}/articles/sveltekit-github-pages-guide">How to Deploy SvelteKit Apps to Github Pages</a></h4>
+    </section>
+
 
 <style>
     :global(body) {
