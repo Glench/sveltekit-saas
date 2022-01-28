@@ -1,4 +1,5 @@
 <script>
+    export const route = false;
     import { base, assets } from '$app/paths';
 </script>
 
