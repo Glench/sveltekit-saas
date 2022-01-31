@@ -144,7 +144,7 @@ export default config;`}</code></pre>
     </figure>
     <p id="3e29ec3b-09bb-4e3f-97ec-86cffc405016" class="">If you wait a little bit, eventually that page will look like this:</p>
 
-    <figure id="324e7a08-fe62-4257-9b62-fb4cb95e55db" class="image"><img style="width:794px" src="{assets}/articles/sveltekit-github-pages-guide/github_pages_site_published.png"/></figure>
+    <figure id="324e7a08-fe62-4257-9b62-fb4cb95e55db" class="image"><img style="width:794px" src="{assets}/articles/sveltekit-github-pages-guide/github_pages_site_published.png" alt="Screenshot of Github Pages' successful publish"/></figure>
 
     <p id="5bd45d46-037c-4c28-a337-b15882a1395e" class="">Click the link to see your new site running with Github Pages!</p>
     <p id="aa3ab243-fa7e-462b-bd98-977c5b31c220" class="">That is generally the process every time you make a change:</p>
