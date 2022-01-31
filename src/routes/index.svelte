@@ -111,10 +111,6 @@
         color: black;
         line-height: 1.2;
     }
-    h1 span {
-        white-space: nowrap;
-        display: block;
-    }
     .gradient {
         -webkit-background-clip: text;
         -webkit-box-decoration-break: clone;
