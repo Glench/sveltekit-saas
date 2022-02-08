@@ -18,7 +18,7 @@
         <div style="max-width: 550px; padding: 1rem;">
             <h1>Launch faster with the <span class="gradient">Svelte SaaS Starter Kit</span></h1>
 
-            <p>A full-stack SaaS template built on SvelteKit and Node.js that starts your project with all the features that are the same in every app.</p>
+            <p>A full-stack SaaS template built on SvelteKit that starts your project with all the features that are the same in every app.</p>
 
             <p>Focus on the unique parts of your app, save weeks of tedious coding, and launch faster. 🚀</p>
         </div>
