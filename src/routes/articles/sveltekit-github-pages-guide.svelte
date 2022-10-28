@@ -55,7 +55,7 @@
     <p id="be06d8e4-5f87-48aa-b11e-c5985c80d9e2" class="">Now we can install SvelteKit. Open a terminal to the Github repository on your computer and run the following command:</p>
 
     <pre id="29c34f64-d83f-42c0-b065-98fec160c587" class="code">
-        <code>npm init svelte@next</code>
+        <code>npm create svelte@latest</code>
     </pre>
 
     <p id="93e78da9-3a6d-4261-a1a5-b3c46dd20e2f" class="">
