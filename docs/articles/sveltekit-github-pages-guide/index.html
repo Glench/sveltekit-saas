@@ -6,12 +6,12 @@
         <link rel="icon" href="/favicon.png" />
         <!-- <link rel="stylesheet" href="mvp.css" /> -->
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta http-equiv="content-security-policy" content=""><title>How to Deploy SvelteKit Apps to Github Pages</title><link rel="stylesheet" href="/mvp.css" data-svelte="svelte-13nt79z"><link rel="preconnect" href="https://fonts.googleapis.com" data-svelte="svelte-13nt79z"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin data-svelte="svelte-13nt79z"><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet" data-svelte="svelte-13nt79z"><script async src="https://www.googletagmanager.com/gtag/js?id=G-FSJW8FC22N" data-svelte="svelte-13nt79z"></script><script data-svelte="svelte-13nt79z">window.dataLayer = window.dataLayer || [];
+        <meta http-equiv="content-security-policy" content=""><title>How to Deploy SvelteKit Apps to Github Pages</title><link rel="stylesheet" href="/mvp.css" data-svelte="svelte-vuylx4"><link rel="preconnect" href="https://fonts.googleapis.com" data-svelte="svelte-vuylx4"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin data-svelte="svelte-vuylx4"><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet" data-svelte="svelte-vuylx4"><script async src="https://www.googletagmanager.com/gtag/js?id=G-FSJW8FC22N" data-svelte="svelte-vuylx4"></script><script data-svelte="svelte-vuylx4">window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
 
             gtag('config', 'G-FSJW8FC22N');
-    </script><style data-svelte="svelte-13nt79z">body {
+    </script><style data-svelte="svelte-vuylx4">body {
             font-family: "Inter",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
         }
         h1 {
@@ -25,7 +25,7 @@
             font-size: 1.5rem;
             margin-top:3rem;
         }
-        p {
+        p, li {
             max-width: 700px;
             margin: 1.5rem auto;
             line-height: 2;
@@ -46,13 +46,13 @@
         }
     </style>
 	<link rel="stylesheet" href="/app_/assets/pages/articles/__layout.svelte-984cc1bf.css">
-	<link rel="modulepreload" href="/app_/start-f0143cfa.js">
+	<link rel="modulepreload" href="/app_/start-d7ad50a0.js">
 	<link rel="modulepreload" href="/app_/chunks/vendor-ba5e527f.js">
 	<link rel="modulepreload" href="/app_/chunks/paths-396f020f.js">
 	<link rel="modulepreload" href="/app_/layout.svelte-eca9fc82.js">
-	<link rel="modulepreload" href="/app_/pages/articles/__layout.svelte-373b0849.js">
-	<link rel="modulepreload" href="/app_/pages/articles/sveltekit-github-pages-guide.svelte-dca6bc84.js"><script type="module">
-		import { start } from "/app_/start-f0143cfa.js";
+	<link rel="modulepreload" href="/app_/pages/articles/__layout.svelte-f79cd2a5.js">
+	<link rel="modulepreload" href="/app_/pages/articles/sveltekit-github-pages-guide.svelte-194f2893.js"><script type="module">
+		import { start } from "/app_/start-d7ad50a0.js";
 		start({
 			target: document.querySelector("#svelte"),
 			paths: {"base":"","assets":""},
@@ -65,8 +65,8 @@
 				error: null,
 				nodes: [
 					import("/app_/layout.svelte-eca9fc82.js"),
-						import("/app_/pages/articles/__layout.svelte-373b0849.js"),
-						import("/app_/pages/articles/sveltekit-github-pages-guide.svelte-dca6bc84.js")
+						import("/app_/pages/articles/__layout.svelte-f79cd2a5.js"),
+						import("/app_/pages/articles/sveltekit-github-pages-guide.svelte-194f2893.js")
 				],
 				url: new URL("http://sveltekit-prerender/articles/sveltekit-github-pages-guide"),
 				params: {}
@@ -149,7 +149,7 @@
     <h2 id="35ace530-b5da-41e7-8b7f-58ac7f83983e" class="">Configure SvelteKit for Github Pages</h2>
     <p id="d2522f7b-82a8-4137-a2fe-e9350a474499" class="">Now we have to tell SvelteKit that we want our static site to go in the <code>/docs</code> folder.</p>
     <p id="433855e2-ac0b-4335-bc71-76409f771537" class="">First, we need to install the <a href="https://github.com/sveltejs/kit/tree/master/packages/adapter-static">SvelteKit static adapter</a> which will output our app as a static set of files instead of a dynamic app:</p>
-    <pre id="5deb8b95-8b8c-44bc-837b-b9848cebc7cc" class="code"><code>npm install @sveltejs/adapter-static@next --save-dev</code></pre>
+    <pre id="5deb8b95-8b8c-44bc-837b-b9848cebc7cc" class="code"><code>npm install @sveltejs/adapter-static --save-dev</code></pre>
     <p id="056fe096-d44c-4fbd-87ef-b80503b0aa9f" class="">(You can also run <code>npm uninstall @sveltejs/adapter-auto --save-dev</code> to remove the unnecessary auto adapter from your package if you want.)</p>
     <p id="3dfd944b-2358-41c2-85ce-49a85b94c729" class="">Edit <code>svelte.config.js</code> to use the static adapter as shown below:</p>
     <pre id="84751aaf-8bfb-4976-80b4-1904436c8d13" class="code"><code>import adapter from &quot;@sveltejs/adapter-static&quot;; 

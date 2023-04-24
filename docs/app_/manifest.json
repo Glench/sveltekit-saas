@@ -1,6 +1,6 @@
 {
   ".svelte-kit/runtime/client/start.js": {
-    "file": "start-f0143cfa.js",
+    "file": "start-d7ad50a0.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
@@ -12,7 +12,8 @@
       ".svelte-kit/runtime/components/error.svelte",
       "src/routes/index.svelte",
       "src/routes/articles/__layout.svelte",
-      "src/routes/articles/sveltekit-github-pages-guide.svelte"
+      "src/routes/articles/sveltekit-github-pages-guide.svelte",
+      "src/routes/articles/migrate-saas-to-sveltekit.svelte"
     ]
   },
   ".svelte-kit/runtime/components/layout.svelte": {
@@ -34,7 +35,7 @@
     ]
   },
   "src/routes/index.svelte": {
-    "file": "pages/index.svelte-38ed281d.js",
+    "file": "pages/index.svelte-6b511806.js",
     "src": "src/routes/index.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -47,7 +48,7 @@
     ]
   },
   "src/routes/articles/__layout.svelte": {
-    "file": "pages/articles/__layout.svelte-373b0849.js",
+    "file": "pages/articles/__layout.svelte-f79cd2a5.js",
     "src": "src/routes/articles/__layout.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -60,8 +61,18 @@
     ]
   },
   "src/routes/articles/sveltekit-github-pages-guide.svelte": {
-    "file": "pages/articles/sveltekit-github-pages-guide.svelte-dca6bc84.js",
+    "file": "pages/articles/sveltekit-github-pages-guide.svelte-194f2893.js",
     "src": "src/routes/articles/sveltekit-github-pages-guide.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-ba5e527f.js",
+      "_paths-396f020f.js"
+    ]
+  },
+  "src/routes/articles/migrate-saas-to-sveltekit.svelte": {
+    "file": "pages/articles/migrate-saas-to-sveltekit.svelte-aed2d61d.js",
+    "src": "src/routes/articles/migrate-saas-to-sveltekit.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [

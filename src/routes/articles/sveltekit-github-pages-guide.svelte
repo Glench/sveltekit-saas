@@ -94,7 +94,7 @@
     <h2 id="35ace530-b5da-41e7-8b7f-58ac7f83983e" class="">Configure SvelteKit for Github Pages</h2>
     <p id="d2522f7b-82a8-4137-a2fe-e9350a474499" class="">Now we have to tell SvelteKit that we want our static site to go in the <code>/docs</code> folder.</p>
     <p id="433855e2-ac0b-4335-bc71-76409f771537" class="">First, we need to install the <a href="https://github.com/sveltejs/kit/tree/master/packages/adapter-static">SvelteKit static adapter</a> which will output our app as a static set of files instead of a dynamic app:</p>
-    <pre id="5deb8b95-8b8c-44bc-837b-b9848cebc7cc" class="code"><code>npm install @sveltejs/adapter-static@next --save-dev</code></pre>
+    <pre id="5deb8b95-8b8c-44bc-837b-b9848cebc7cc" class="code"><code>npm install @sveltejs/adapter-static --save-dev</code></pre>
     <p id="056fe096-d44c-4fbd-87ef-b80503b0aa9f" class="">(You can also run <code>npm uninstall @sveltejs/adapter-auto --save-dev</code> to remove the unnecessary auto adapter from your package if you want.)</p>
     <p id="3dfd944b-2358-41c2-85ce-49a85b94c729" class="">Edit <code>svelte.config.js</code> to use the static adapter as shown below:</p>
     <pre id="84751aaf-8bfb-4976-80b4-1904436c8d13" class="code"><code>{`import adapter from "@sveltejs/adapter-static"; 

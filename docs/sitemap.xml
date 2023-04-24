@@ -5,6 +5,9 @@
     <loc>https://sveltesaas.com</loc>
   </url>
   <url>
+    <loc>https://sveltesaas.com/articles/migrate-saas-to-sveltekit</loc>
+  </url>
+  <url>
     <loc>https://sveltesaas.com/articles/sveltekit-github-pages-guide</loc>
   </url>
 </urlset>

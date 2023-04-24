@@ -32,7 +32,7 @@
             font-size: 1.5rem;
             margin-top:3rem;
         }
-        p {
+        p, li {
             max-width: 700px;
             margin: 1.5rem auto;
             line-height: 2;
