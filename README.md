@@ -1,4 +1,4 @@
-# [The SaaS Template for SvelteKit](https://www.sveltesaas.com/)
+# [The SaaS Template for SvelteKit](https://www.sveltekitsaas.com/)
 
 Everything you need to launch your next app. 
 
