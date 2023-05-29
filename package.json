@@ -3,8 +3,8 @@
   "version": "0.0.1",
   "scripts": {
     "dev": "svelte-kit dev",
-    "build": "svelte-kit build && echo 'sveltesaas.com' > docs/CNAME && npm run sitemap",
-    "sitemap": "svelte-sitemap --domain https://sveltesaas.com -o docs",
+    "build": "svelte-kit build && echo 'sveltekitsaas.com' > docs/CNAME && npm run sitemap",
+    "sitemap": "svelte-sitemap --domain https://sveltekitsaas.com -o docs",
     "package": "svelte-kit package",
     "preview": "svelte-kit preview",
     "check": "svelte-check --tsconfig ./tsconfig.json",

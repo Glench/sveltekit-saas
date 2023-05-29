@@ -2,7 +2,7 @@
     import { base, assets } from '$app/paths';
 </script>
 <svelte:head>
-    <title>How to Deploy SvelteKit Apps to Github Pages</title>
+    <title>Reflections on Migrating my SaaS to SvelteKit</title>
 </svelte:head>
 
 <header style="padding: 0">
